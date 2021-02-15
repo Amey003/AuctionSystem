@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.auctionsystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:27:5-29:36
+12        android:name="android.hardware.camera"
+12-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:28:9-47
+13        android:required="false" />
+13-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:29:9-33
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:30:5-65
+15-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:30:22-62
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:32:5-81
+16-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:32:22-78
+17
+18    <application
+18-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:5:5-25:19
+19        android:allowBackup="true"
+19-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.1] C:\Users\amey3\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:10:9-35
+26        android:theme="@style/Theme.AuctionSystem" >
+26-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:11:9-51
+27        <activity android:name="com.example.auctionsystem.OrmHelperManager" />
+27-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:12:9-63
+27-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:12:19-51
+28        <activity android:name="com.example.auctionsystem.OrmActivity" />
+28-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:13:9-49
+28-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:13:19-46
+29        <activity android:name="com.example.auctionsystem.HomeActivity" />
+29-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:14:9-50
+29-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:14:19-47
+30        <activity android:name="com.example.auctionsystem.BidderService" />
+30-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:15:9-51
+30-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:15:19-48
+31        <activity android:name="com.example.auctionsystem.AuctionItemActivity" />
+31-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:16:9-57
+31-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:16:19-54
+32        <activity android:name="com.example.auctionsystem.AuctionBidsActivity" />
+32-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:17:9-57
+32-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:17:19-54
+33        <activity android:name="com.example.auctionsystem.MainActivity" >
+33-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:18:9-24:20
+33-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:18:19-47
+34            <intent-filter>
+34-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:19:13-23:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:20:17-69
+35-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:20:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:22:17-77
+37-->C:\Users\amey3\AndroidStudioProjects\AuctionSystem\app\src\main\AndroidManifest.xml:22:27-74
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>
